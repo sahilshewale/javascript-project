@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="restotrant.css">
+  <title>sahil restorant
+  </title>
+</head>
+<body>
+    <header>
+    <div class="container">
+      <h1>Sahil restorant</h1>
+    </div>
+  </header>
+  
+  <div class="container">
+    <h2>Restaurants</h2>
+    <div class="restaurants-list">
+      <!-- Restaurant cards will be dynamically generated here -->
+      <div class="restaurant-card">
+        <img src="photo.jpg" alt="garlic breads">
+        <h2>garlic breads</h2>
+        <p>200 rs</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="restaurant-card">
+        <img src="photo(1).jfif" alt="bun intended">
+        <h2bun intended</h2>
+        <p>300 rs</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="restaurant-card">
+        <img src="photo(2).jfif" alt="chicken biryani">
+        <h2>chicken biryani</h2>
+        <p>300 rs</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="restaurant-card">
+        <img src="photo.webp" alt="veg pizza">
+        <h2>veg pizza</h2>
+        <p>199 rs</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="restaurant-card">
+        <img src="photo(4).jfif" alt="Biryani">
+        <h2>Biryani</h2>
+        <p>300 rs</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="restaurant-card">
+        <img src="photo(5).jfif" alt="Besan Dhokla">
+        <h2>Besan Dhokla</h2>
+        <p>150 rs.</p>
+        <button>Add to Cart</button>
+      </div>
+      <!-- Add more restaurant cards as needed -->
+    </div>
+    
+    <h2>Cart</h2>
+    <div class="cart">
+      <!-- Cart items will be dynamically generated here -->
+      <div class="cart-item">
+        <div>
+          <span class="item-name">Besan Dhokla</span>
+          <span class="item-price">150 rs/kg</span>
+        </div>
+        <button>Remove</button>
+      </div>
+      <div class="cart-item">
+        <div>
+          <span class="item-name">Biryani</span>
+          <span class="item-price">300 rs/handi</span>
+        </div>
+        <button>Remove</button>
+      </div>
+      <!-- Add more cart items as needed -->
+      <div class="cart-total">Total: 450 rs </div>
+      <button>Checkout</button>
+    </div>
+  </div>
+  <h2>Payment Details</h2>
+<div class="payment-details">
+  <label for="card-number">Card Number:</label>
+  <input type="text" id="card-number" placeholder="Enter your card number">
+  
+  <label for="card-name">Cardholder Name:</label>
+  <input type="text" id="card-name" placeholder="Enter cardholder name">
+  
+  <label for="expiry-date">Expiry Date:</label>
+  <input type="text" id="expiry-date" placeholder="MM/YY">
+  
+  <label for="cvv">CVV:</label>
+  <input type="text" id="cvv" placeholder="Enter CVV">
+</div>
+<div class="cart">
+  <button id="checkout-btn">Checkout</button>
+</div>
+
+  <footer>
+    <div class="container">
+      &copy; 2023 Swiggy Clone. All rights reserved.
+    </div>
+  </footer>
+  
+  <!-- JavaScript code for dynamic functionality (e.g., fetching data, adding items to the cart, etc.) -->
+  <script src="restorant.js"></script>
+</body>
+</html>

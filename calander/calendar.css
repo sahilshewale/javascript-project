@@ -1,0 +1,56 @@
+#calendar {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgb(226, 148, 45);
+    border-radius: 14px;
+
+  }
+  
+  #calendar table {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  #calendar th,
+  #calendar td {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #calendar th {
+    background-color: #ad5c92;
+    border-radius: 10px;
+  }
+
+  Calendar.zero{
+    background-color: #cf1717;
+  }
+  #calendar td {
+    background-color: rgb(241, 245, 245);
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 4px 5px 6px rgb(rgb(182, 74, 74), rgb(190, 107, 75), rgb(80, 80, 158),0.5);
+  }
+  
+  #calendar td:hover {
+    background-color: rgb(226, 148, 45);
+    B
+  }
+  
+  #calendar .current-month {
+    font-weight: bold;
+  }
+  
+  #calendar .today {
+    background-color: #f50a0a;
+  }
+  
+  #calendar .indian-festival {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
